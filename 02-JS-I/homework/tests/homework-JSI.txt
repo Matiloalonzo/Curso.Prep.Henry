@@ -1,0 +1,17 @@
+- Variable: Es una manera de guardar un valor.Para poder crear una variable necesitamos utilizar
+la palabra clave "var"(existen dos otras formas de declarar una variable),
+que anteceda al nombre que otorgamos a dicha variable para poder reconocerla luego. 
+
+- String: Es cualquier tipo de texto escrito entre comillas. Tambien se conoce como cadena de texto.
+
+- Funcion(argumento, ): Es un conjunto de instrucciones que terminara realizando una tarea,
+ o calculando un valor, donde necesita recibir algun tipo de dato para poder devolver un resultado.
+ Una funcion esta compuesta por la palabra clave "function", el nombre que decidamos otorgarle,
+ seguido por una lista de parametros entre parentesis, donde ira los datos que llamamos argumentos,
+ y finalmente tenemos el conjunto de instrucciones encerradas entre llaves ({}).
+
+- Declaraciones if: Es una estructura que permite tomar una decision a partir de una condicion
+previamente declarada. En el caso que la condicion no se cumpla, tendra un resultado por defecto.
+
+- Valores Booleanos: Son un tipo de dato que a traves de dos palabras claves (true, y false),
+representan verdadero y falso respectivamente.
