@@ -1,0 +1,19 @@
+-for: es un tipo de bucle, que basicamente lo que hace es ejecutar o evaluar una expreison una y otra vez,
+segun la condiciones que uno le de, hasta que finalmente se detenga cuando encontramos lo que buscamos.
+La forma en que escribimos un bucle for es iniciando con la palabra clave for, seguida de las condiciones
+necesarias entre parentesis, y finalmente abrir y cerrar llaves donde ira la ejecucion de la expresion.
+
+
+&&, ||, !: los operadores logicos son simbolos con los cuales podemos combinar dos expresiones y asi determinar
+si son ciertas o no.
+
+    -&&: se llama AND y se escribe con dos simbolos(&&), y lo que hace es evaluar las expresiones dadas,
+    y devolver verdadero UNICAMENTE si ambas expresiones son ciertas. Si una expresion, o todas
+    son falsas, devolvera falso.
+
+    -||: Se llama OR y se escribe con dos barritas verticales (||), y a diferencia de AND solamente necesita
+    que una de las expresiones sea cierta para devolver verdadero. Solamente si ambas expresiones son falsas,
+    el operador devolvera falso.   
+
+    -!: Se llama NOT y se escribe con un signo de exclamacion (!).Este operador lo unico que hara es
+    es devolver el valor booleano opuesto al de la expresion.
