@@ -1,0 +1,4 @@
+-array: un Array es una lista donde podemos almacenar cualquier tipo de dato, ya sea una string, un numero,
+un booleano, o si queremos otra array.Un array es facil de identificar porque siempre va entre corchetes,
+y cada elemento dentro del array va estar separado por una coma.
+
