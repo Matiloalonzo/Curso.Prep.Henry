@@ -1,0 +1,48 @@
+-Objetos: es una coleccion de datos representados en propiedades y sus respectivos valores.
+son similares a los arrays con la diferencia que un array, almacena cualquier tipo de datos sin tener algun tipo
+de relacion entre ellos necesariamente. Mientras que un objeto almacena cualquier tipo de datos todos relacionados
+a una cosa en especifico. Y otra gran diferencia es que en vez de corchetes, un objeto se encuentra entre llaves.
+por ejemplo: digamos que nuesto objeto es un auto, y dentro del objeto auto podemos almacenar todos sus datos
+como su color, su marca, que tipo de motor tiene, y hasta que funciones tiene el auto como arrancar,
+frenar, tocar la bocina, etc.
+y siguiendo con nuestro ejemplo, la sintaxis correcta de un objeto seria:
+const auto = {
+    "color": "rojo",
+    "marca": "Fiat,
+    "motor": 2.0
+} 
+Los objetos utilizan un concepto llamado pares clave:valor para identificar cada elemnto dentro del objeto
+en nuestro ejemplo "color" seria la clave(key), y "rojo" seria su valor(value). esa es otra diferencia con un array
+donde los elementos estan valorados a traves de un indice.
+
+-Propiedades: son las claves(key) dentro de un objeto.
+por ej: 
+const perro= {
+    "nombre": "Firu"
+}nombre es una propiedad de nuestro objeto perro, donde su valor es "Firu".
+
+-Métodos: Es el nombre que reciben las propiedades de un objeto cuando su valor es una funcion.
+
+-for…in: Es el tipo de bucle que utilizamos para hacer repeticiones o movernos dentro de un objeto.
+recordemos que un objeto a diferencia de un array, no contiene indice numerico, por lo tanto no vamos
+a poder utilizar el bucle for clasico.
+Utiliza una sintaxis un poco diferente:
+for(const key in object){} ==> key va ser la variable que va a repetirse dentro de nuestro object. 
+
+-Notación de puntos vs notación de corchetes:AMbas notaciones sirven para acceder a las Propiedades
+dentro de un objeto. Digamos que tenemos un objeto llamado obj y su propiedad llamada prop,
+La notacion de puntos se representa:
+obj.prop ==> escribimos el nombre de nuestro objeto, seguido del punto y seguido del NOMBRE de la propiedad,
+eso es muy importante. si utilizamos notacion de puntos debemos utilizar el nombre de la propiedad.
+esta notacion termina facilitandonos la escritura y un acceso mas rapido a las llaves o hasta los valores
+dentro de un objeto. Sin embargo no simepre podemos utilizar este tipo de notacion.
+Mientras que la notacion entre corchetes se representa:
+obj["prop"] ==> si bien terminamos escribiendo mas, la notacion entre corchetes es necesaria cuando
+el nombre de nuestra propiedad no empieza por una letra. por ejemplo si nuestro objeto obj
+tiene una propiedad llamada 123, deberiamos utilizar la notacion de corchetes de esta manera: obj["123"].
+otra de las razones por las que deberiamos usar notacion de corchetes, es cuando por laguna razon 
+nuestra propiedad esta almacenada en una variable.
+por ej: var property1 = "prop";
+Entonces en este caso, para acceder a prop tendriamos que hacerlo de la siguiente manera:
+obj[property1] ==> y notemos que no lleva comillas, dado que property1 no es el nombre de la propiedad, sino 
+que es la variable donde almacenamos a "prop".
